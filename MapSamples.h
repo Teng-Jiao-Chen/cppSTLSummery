@@ -1,0 +1,8 @@
+//
+// Created by Tengjiao on 5/22/2018.
+//
+
+#ifndef STLSUMMERY_MAPSAMPLES_H
+#define STLSUMMERY_MAPSAMPLES_H
+
+#endif //STLSUMMERY_MAPSAMPLES_H
