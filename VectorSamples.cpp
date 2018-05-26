@@ -1,5 +1,5 @@
-#include <iostream>
 #include "VectorSamples.h"
+#include <iostream>
 #include <vector>
 #include <algorithm>
 using namespace std;

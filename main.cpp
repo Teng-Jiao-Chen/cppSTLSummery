@@ -1,5 +1,6 @@
 #include <iostream>
 #include "VectorSamples.h"
+#include "MapSamples.h"
 
 int main() {
     //createVector();
@@ -8,6 +9,11 @@ int main() {
     //insertIntoVector();
     //deleteFromVector();
     //sortVector();
-    miscellaneousInVector();
+    //miscellaneousInVector();
+    //createMap();
+    //accessMap();
+    //iterateMap();
+    //findInMap();
+    deleteFromMap();
     return 0;
 }

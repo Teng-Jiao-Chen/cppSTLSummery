@@ -1,8 +1,10 @@
-//
-// Created by Tengjiao on 5/22/2018.
-//
-
 #ifndef STLSUMMERY_MAPSAMPLES_H
 #define STLSUMMERY_MAPSAMPLES_H
+
+void createMap();
+void accessMap();
+void iterateMap();
+void findInMap();
+void deleteFromMap();
 
 #endif //STLSUMMERY_MAPSAMPLES_H
