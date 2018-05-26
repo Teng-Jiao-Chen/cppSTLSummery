@@ -9,4 +9,12 @@ void deleteFromVector();
 void sortVector();
 void miscellaneousInVector();
 
+// deque samples
+/*
+ * Although deque is a different data structure,
+ * it is similar to vector. Only difference is
+ * deque supports front.
+ */
+void dequeBasics();
+
 #endif //STLSUMMERY_VECTORSAMPLES_H

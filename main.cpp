@@ -1,6 +1,9 @@
 #include <iostream>
 #include "VectorSamples.h"
+#include "SetSamples.h"
 #include "MapSamples.h"
+#include "StackQueueSamples.h"
+#include "ListSamples.h"
 
 int main() {
     //createVector();
@@ -10,10 +13,17 @@ int main() {
     //deleteFromVector();
     //sortVector();
     //miscellaneousInVector();
+    //dequeBasics();
     //createMap();
     //accessMap();
     //iterateMap();
     //findInMap();
-    deleteFromMap();
+    //deleteFromMap();
+    //stackBasic();
+    //queueBasic();
+    //listBasics();
+    //iterateSet();
+    //findInSet();
+    deleteFromSet();
     return 0;
 }

@@ -1,0 +1,6 @@
+#ifndef STLSUMMERY_LISTSAMPLES_H
+#define STLSUMMERY_LISTSAMPLES_H
+
+void listBasics();
+
+#endif //STLSUMMERY_LISTSAMPLES_H

@@ -1,6 +1,7 @@
 #include "VectorSamples.h"
 #include <iostream>
 #include <vector>
+#include <deque>
 #include <algorithm>
 using namespace std;
 
@@ -179,4 +180,25 @@ bool pairDecreaseCmp(pair<int, int> x, pair<int, int> y) {
 
 bool pairIncreaseCmp(pair<int, int> x, pair<int, int> y) {
     return x.first < y.first;
+}
+
+void dequeBasics(){
+    deque<int> d;
+    d.push_back(1);
+    d.push_back(2);
+    d.push_back(3);
+    d.push_back(4);
+    d.push_back(5);
+
+    d.push_front(10);
+    d.push_front(9);
+    d.push_front(8);
+    d.push_front(7);
+    d.push_front(6);
+
+    deque<int>::iterator it;
+    for(it=d.begin();it!=d.end();it++) {
+        cout<<*it<<' ';
+    }
+    cout << endl;
 }
