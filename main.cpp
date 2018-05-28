@@ -4,6 +4,7 @@
 #include "MapSamples.h"
 #include "StackQueueSamples.h"
 #include "ListSamples.h"
+#include "priorityQueueSamples.h"
 
 int main() {
     //createVector();
@@ -24,6 +25,9 @@ int main() {
     //listBasics();
     //iterateSet();
     //findInSet();
-    deleteFromSet();
+    //deleteFromSet();
+    //priorityQueueBasic();
+    priorityQueueStruct();
+    //priorityQueueClass();
     return 0;
 }
